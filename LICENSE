@@ -7,4 +7,6 @@ git log --pretty=oneline
 git reset --hard HEAD^    (HEAD~100)
 git reset --hard 1094a
 git reflog
+git checkout -- readme.txt
+git reset HEAD readme.txt
 
