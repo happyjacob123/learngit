@@ -15,4 +15,16 @@ git checkout -- test.txt
 git remote add origin git@github.com:happyjacob123/learngit.git//关联一个远程库
 git push -u origin master//第一次推送master分支时，加上了-u参数
 git push origin master//推送最新修改
+git clone git@github.com:happyjacob123/code.git
 
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
