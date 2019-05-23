@@ -12,3 +12,6 @@ git reset HEAD readme.txt     git checkout -- readme.txt
 git rm test.txt               git commit -m "remove test.txt"
 git checkout -- test.txt
 
+git remote add origin git@github.com:happyjacob123/learngit.git
+git push -u origin master//第一次推送master分支时，加上了-u参数
+git push origin master
