@@ -30,4 +30,4 @@ git clone git@github.com:happyjacob123/code.git
 删除分支：git branch -d <name>
 删除远程git服务器上的分支：git push origin -d <name>
 
-
+看分支合并图git log --graph --pretty=oneline --abbrev-commit
