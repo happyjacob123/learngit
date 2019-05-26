@@ -26,8 +26,11 @@ git clone git@github.com:happyjacob123/code.git
 创建+切换分支：git checkout -b <name>
 
 合并某分支到当前分支：git merge <name>
+合并后的历史有分支，能看出来曾经做过合并:git merge --no-ff -m "merge with no-ff" dev
 
 删除分支：git branch -d <name>
 删除远程git服务器上的分支：git push origin -d <name>
 
 看分支合并图git log --graph --pretty=oneline --abbrev-commit
+
+
