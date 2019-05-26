@@ -33,4 +33,7 @@ git clone git@github.com:happyjacob123/code.git
 
 看分支合并图git log --graph --pretty=oneline --abbrev-commit
 
+看工作现场存到哪？git stash list
+保存工作现场git stash
+回到工作现场git stash pop
 
